@@ -27,3 +27,9 @@ optipng -o7 -zm1-9 -strip all large.$1
 optipng -o7 -zm1-9 -strip all medium.$1
 optipng -o7 -zm1-9 -strip all small.$1
 optipng -o7 -zm1-9 -strip all xxlarge.$1
+# advpng run to shrink extra 3-5%
+advpng -z -4 xlarge.$1
+advpng -z -4 large.$1
+advpng -z -4 medium.$1
+advpng -z -4 small.$1
+advpng -z -4 xxlarge.$1
